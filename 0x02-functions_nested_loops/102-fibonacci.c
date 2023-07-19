@@ -8,16 +8,16 @@
 int main(void)
 {
 	int i = 50;
-	unsigned long long first = 1;
-	unsigned long long second = 2;
-	unsigned long long next;
+	unsigned long first = 1;
+	unsigned long second = 2;
+	unsigned long next;
 	int j;
 
-	printf("%llu, %llu, ", first, second);
+	printf("%lu, %lu, ", first, second);
 	for (j = 3; j <= i; j++)
 	{
 		next = first + second;
-		printf("%llu", next);
+		printf("%lu", next);
 		if (j < i)
 		{
 			printf(", ");
