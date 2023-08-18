@@ -7,7 +7,7 @@
  * @format: list of types of parametres passed to the function
  */
 
-voidprint_all(const char *const format, ...)
+void print_all(const char *const format, ...)
 {
 	int i = 0;
 	char *str, *sep = "";
