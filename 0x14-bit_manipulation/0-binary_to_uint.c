@@ -22,7 +22,7 @@ unsigned int binary_to_uint(const char *b)
 		}
 		else
 		{
-			break;
+			return (0);
 		}
 	}
 	return (num);
